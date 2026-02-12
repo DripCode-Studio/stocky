@@ -32,12 +32,12 @@ function AppSidebar() {
         aria-label="close sidebar"
         className="drawer-overlay"
       ></label>
-      <div className="flex min-h-full flex-col items-start bg-base-200 is-drawer-close:w-14 is-drawer-open:w-64">
-        <ul className="menu w-full grow mt-20">
+      <div className="flex min-h-full flex-col  bg-amber-950 is-drawer-close:w-14 is-drawer-open:w-64">
+        <ul className="menu w-full grow mt-10 md:mt-20">
           {navigation.map((item) => {
             return (
               <div className="flex min-h-full flex-col items-start  is-drawer-close:w-14 is-drawer-open:w-64">
-                <li className="w-full ">
+                <li className="w-full rounded-lg px-1 py-2.5 text-sm font-medium transition-colors">
                   <a
                     href={item.href}
                     className="is-drawer-close:tooltip is-drawer-close:tooltip-right"

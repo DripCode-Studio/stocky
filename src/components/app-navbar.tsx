@@ -1,10 +1,10 @@
 const AppNavBar = () => {
   return (
-    <nav className="navbar w-full bg-base-300">
+    <nav className="navbar w-full bg-amber-100 border-b-2">
       <label
         htmlFor="my-drawer-4"
         aria-label="open sidebar"
-        className="btn btn-square btn-ghost"
+        className="btn btn-square "
       >
         {/* Sidebar toggle icon */}
         <svg

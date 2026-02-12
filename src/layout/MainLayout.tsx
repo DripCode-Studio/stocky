@@ -7,7 +7,7 @@ const MainLayout = () => {
     <>
       <div className="drawer lg:drawer-open">
         <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
-        <div className="drawer-content">
+        <div className="drawer-content bg-amber-50 text-amber-700">
           {/* Navbar */}
           <AppNavBar />
           {/* Page content here */}
