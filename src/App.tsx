@@ -1,9 +1,9 @@
+import AppRouter from "./routes/AppRouter";
+
 function App() {
   return (
     <>
-      <div>
-        <h1>Stocky</h1>
-      </div>
+      <AppRouter />
     </>
   );
 }
