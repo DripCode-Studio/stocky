@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 
 const navigation = [
-  { name: "Dashboard", href: "/dashboard", icon: LayoutDashboard },
+  { name: "Dashboard", href: "/", icon: LayoutDashboard },
   { name: "Raw Products", href: "/raw-products", icon: Package },
   { name: "Suppliers", href: "/suppliers", icon: Truck },
   { name: "Raw Orders", href: "/raw-orders", icon: ShoppingCart },
@@ -36,7 +36,7 @@ function AppSidebar() {
         <ul className="menu w-full grow mt-20">
           {navigation.map((item) => {
             return (
-              <div className="flex min-h-full flex-col items-start bg-base-200 is-drawer-close:w-14 is-drawer-open:w-64">
+              <div className="flex min-h-full flex-col items-start  is-drawer-close:w-14 is-drawer-open:w-64">
                 <li className="w-full ">
                   <a
                     href={item.href}
